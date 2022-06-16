@@ -21,17 +21,17 @@ slider.onchange = (e) => updateSize(e.target.value);
 /* buttons click events*/
 colorModeButton.addEventListener("click", () => {
   buttonMode = "color";
-  activeButton();
+  
 });
 
 eraserModeButton.addEventListener("click", () => {
   buttonMode = "eraser";
-  activeButton();
+  
 });
 
 rainbowModeButton.addEventListener("click", () => {
   buttonMode = "rainbow";
-  activeButton();
+  
 });
 
 /*updating size wrt to slider value and resetting/clearing grid*/
